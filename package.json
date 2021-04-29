@@ -1,0 +1,29 @@
+{
+  "name": "simplestateform",
+  "version": "0.0.5",
+  "description": "Library for simple stateful react form components.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "compile": "webpack"
+  },
+  "author": "Joseph Jung",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "jest": "^26.6.3",
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/"
+    ]
+  },
+  "repository": "https://github.com/ozymandias547/simplestateform"
+}
